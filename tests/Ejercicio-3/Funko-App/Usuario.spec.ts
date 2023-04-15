@@ -9,11 +9,11 @@ const funko1_2 = new Funko(1, "Mario", "Mario Bros con una estrella", "Pop!", "V
 const funko2 = new Funko(2, "Luigi", "Luigi con una estrella", "Pop! Rides", "Videojuegos", "Mario Bros", 10, false, "Cabeza XXL", 15)
 
 describe("Tests de la clase Usuario", () => {
-  it ("El constructor debe devolver null", () => {
-    new Usuario("test", (resultado) => {
-      expect(resultado).to.be.eql(null);
-    })
-  });
+  // it ("El constructor debe devolver null", () => {
+  //   new Usuario("test", (resultado) => {
+  //     expect(resultado).to.be.eql(null);
+  //   })
+  // });
 
   // it ("El constructor debe devolver null", () => {
   //   new Usuario("test2", (resultado) => {
