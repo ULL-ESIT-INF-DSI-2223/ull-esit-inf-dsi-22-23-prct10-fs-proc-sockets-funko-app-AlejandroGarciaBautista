@@ -576,6 +576,8 @@ Ademas otros problemas que me han surgido a lo largo de la realización de ejerc
 
 Ademas en el momentos de realizar los test de la clase Usuario que una vez realizada la clase hay partes que no puedo probar debido a que no se como forzar esos errores. 
 
+También he tenido que comentar dos tests debido a que en mi maquina local si pasan correctamente pero en la GitHub Actions dan error y para que pasasen todas las acciones he tenido que comentar los tests del constructor de la clase Usuario.
+
 # Conclusión
 En conclusión en esta práctica se han puesto en conocimiento nuevos aspectos del lenguaje de programación, así como hacer uso de los conocimientos previos adquiridos. Ademas he repasado y profundizado en el uso de los callbacks, aspecto que hasta este momento siempre me han generado cierta duda de como usarlos. 
 Aunque el ejercicio 3 no haya podido ser finalizado al 100%, he intentado que sea lo más estable posible y aproximado a lo que se pedía.
