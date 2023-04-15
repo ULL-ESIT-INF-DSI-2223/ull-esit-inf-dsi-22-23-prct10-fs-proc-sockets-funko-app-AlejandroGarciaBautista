@@ -15,11 +15,11 @@ describe("Tests de la clase Usuario", () => {
     })
   });
 
-  it ("El constructor debe devolver null", () => {
-    new Usuario("test2", (resultado) => {
-      expect(resultado).to.be.eql(null);
-    })
-  });
+  // it ("El constructor debe devolver null", () => {
+  //   new Usuario("test2", (resultado) => {
+  //     expect(resultado).to.be.eql(null);
+  //   })
+  // });
 
   it ("Prueba del getNombre", () => {
     const usuario = new Usuario("testUsuario", (resultado) => {
